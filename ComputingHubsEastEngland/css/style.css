@@ -1,8 +1,13 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
-    --light: #F0FBFC;
-    --dark: #181d38;
+    --primary: #201547;
+    --light: #7DFDFD;
+    --dark: #59ff59;
+
+    --primary-blue: #7DFDFD;
+    --primary-purple: #201547;
+    --light-purple: #1C0F5F;
+    --accent: #59ff59;
 }
 
 .fw-medium {
@@ -97,7 +102,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--primary-purple);
 }
 
 @media (max-width: 991.98px) {
@@ -117,7 +122,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: var(--accent);
     font-weight: 500;
 }
 
@@ -192,8 +197,8 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--primary-purple);
+    border-color: var(--primary-purple);
 }
 
 .page-header {
@@ -208,7 +213,7 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-    color: var(--light);
+    color: var(--primary-blue);
 }
 
 
@@ -226,7 +231,7 @@
     height: 2px;
     top: 4px;
     left: -40px;
-    background: var(--primary);
+    background: var(--primary-purple);
     z-index: -1;
 }
 
@@ -237,7 +242,7 @@
     height: 2px;
     bottom: 5px;
     left: -60px;
-    background: var(--primary);
+    background: var(--primary-purple);
     z-index: -1;
 }
 
@@ -254,13 +259,13 @@
 
 /*** Service ***/
 .service-item {
-    background: var(--light);
+    background: var(--primary-blue);
     transition: .5s;
 }
 
 .service-item:hover {
     margin-top: -10px;
-    background: var(--primary);
+    background: var(--primary-purple);
 }
 
 .service-item * {
@@ -268,7 +273,7 @@
 }
 
 .service-item:hover * {
-    color: var(--light) !important;
+    color: var(--primary-blue) !important;
 }
 
 
@@ -337,7 +342,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary) !important;
+    background: var(--primary-purple) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
@@ -362,8 +367,8 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--primary-purple);
+    border-color: var(--primary-purple);
 }
 
 
@@ -375,7 +380,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--light);
+    color: var(--primary-blue);
     font-weight: normal;
     border: 1px solid #FFFFFF;
     border-radius: 35px;
@@ -383,7 +388,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--primary-purple);
 }
 
 .footer .btn.btn-link {
@@ -418,7 +423,7 @@
 }
 
 .footer .copyright a {
-    color: var(--light);
+    color: var(--primary-blue);
 }
 
 .footer .footer-menu a {
