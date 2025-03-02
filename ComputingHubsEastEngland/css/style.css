@@ -82,6 +82,10 @@
 
 
 /*** Navbar ***/
+.navbar {
+    background-color: var(--primary-purple);
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -89,12 +93,13 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    background-color: var(--primary-purple);
 }
 
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: #7DFDFD;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
@@ -102,7 +107,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary-purple);
+    color: var(--primary-blue);
 }
 
 @media (max-width: 991.98px) {
@@ -122,7 +127,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--accent);
+    color: var(--primary-blue);
     font-weight: 500;
 }
 
