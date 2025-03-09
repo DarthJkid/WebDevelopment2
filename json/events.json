@@ -1,24 +1,38 @@
-[
+[   
     {
-      "name": "World Computer Day Computing Challenge",
-      "date": "2025-02-13",
-      "location": "Norfolk",
-      "description": "An online challenge event aimed at Upper Key Stage 2. Pupils complete a series of programming challenges linked to World Computer Day.",
-      "bookingLink": "https://eventbrite.example.com/world-computer-day"
+      "name": "(ISAAC) Programming - File Handling",
+      "date": "11-03-2025",
+      "location": "Online",
+      "description": "In this online session you will learn programming techniques used with file handling, the session is aimed at GCSE students. The event shows how in Python to work with files in different modes.",
+      "bookingLink": "https://isaaccomputerscience.org/events/20250311_booster_programming_file_handling?examBoard=all&stage=all"
     },
     {
-      "name": "I Belong Green Tech",
-      "date": "2025-02-04",
-      "location": "East Midlands",
-      "description": "An invite-only event for KS2 and KS3 students featuring skills workshops and physical computing activities under the I Belong Green Tech theme.",
-      "bookingLink": "https://eventbrite.example.com/i-belong-green-tech"
+      "name": "ITT & ECT webinar series: AI and computing teaching",
+      "date": "12-03-2025",
+      "location": "Online",
+      "description": "Revolutionise your teaching experience with the latest support from the National Centre for Computing Education (NCCE). If you're an ECT (or mentor) or an ITT (or tutor) in England, this is the perfect opportunity for you.",
+      "bookingLink": "https://www.eventbrite.co.uk/e/itt-ect-webinar-series-ai-and-computing-teaching-tickets-1000187597027?aff=ebdsoporgprofile"
     },
     {
-      "name": "I Belong Green Tech Challenge Day",
-      "date": "2025-03-28",
-      "location": "East of England",
-      "description": "A challenge day where young participants will develop a Green Tech Village, fostering creativity and computational thinking.",
-      "bookingLink": "https://eventbrite.example.com/i-belong-green-tech-challenge"
+      "name": "(ISAAC) Programming - Errors, Testing, Tracing",
+      "date": "12-03-2025",
+      "location": "Online",
+      "description": "In this online session on Errors, Testing, and Tracking, you’ll explore key GCSE programming concepts related to identifying, testing, and resolving errors in code.",
+      "bookingLink": "https://isaaccomputerscience.org/events/20250312_booster_programming_errors_testing_tracing?examBoard=all&stage=all"
+    },
+    {
+      "name": "Discover Computing Ambassadors",
+      "date": "18-03-2025",
+      "location": "Kainos",
+      "description": "Join us at Kainos' Birmingham office to hear about the National Centre for Computing Education's (NCCE) Computing Ambassador scheme and the impact you could be having on young people.",
+      "bookingLink": "https://www.eventbrite.co.uk/e/discover-computing-ambassadors-tickets-1082944148099?aff=ebdsoporgprofile"
+    },
+    {
+      "name": "I Belong Enrichment workshop: movement-controlled light (KS3) - Girls only",
+      "date": "18-03-2025",
+      "location": "Canterbury Christ Church University",
+      "description": "Join us for an inspiring journey where technology meets art. The workshop is aimed at young female students in Year 7 and Year 8; give them the opportunity to spark their creativity and illuminate the path to a bright future at our female-led computing workshop in support of the I Belong programme!.",
+      "bookingLink": "https://www.eventbrite.co.uk/e/i-belong-enrichment-workshop-movement-controlled-light-ks3-girls-only-tickets-1139676897279?aff=ebdsoporgprofile"
     }
   ]
   

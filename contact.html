@@ -3,43 +3,47 @@
 
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for Teach Computing">
+    <title>Contact Us - Teach Computing</title>
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
+    <link rel="icon" href="img/favicon.ico">
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+        }
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        .hub-item {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+        #map {
+            height: 450px;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+    </style>
 </head>
 
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
-
-
+<body lang="en">
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top p-0">
         <a href="index.html"><img src="./img/ComputingHubsDark-Large.PNG" alt="Computing Hubs Logo"></a>
@@ -67,33 +71,25 @@
     </nav>
     <!-- Navbar End -->
 
-
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+    <!-- Page Header -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header text-center">
         <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Contact</h1>
-                </div>
-            </div>
+            <h1 class="display-3 text-white">Contact</h1>
         </div>
     </div>
-    <!-- Header End -->
 
-
-    <!-- Contact Start -->
+    <!-- Main Contact Section -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Contact Us</h6>
-                <h1 class="mb-5">Contact For Any Query</h1>
-            </div>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <!-- Teach Computing Contact Details -->
+                <div class="col-lg-4 col-md-6">
                     <h5>Get In Touch</h5>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <p class="mb-4">If you have any questions, please use the contact form below or call us using the
+                        details provided.</p>
                     <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -102,16 +98,18 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ms-3">
                             <h5 class="text-primary">Mobile</h5>
-                            <p class="mb-0">+012 345 67890</p>
+                            <p class="mb-0">+44 7936254852</p>
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary"
+                            style="width: 50px; height: 50px;">
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ms-3">
@@ -120,36 +118,40 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <iframe class="position-relative rounded w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+
+                <!-- Interactive Map using Leaflet -->
+                <div class="col-lg-4 col-md-6">
+                    <h5>Our Hub Locations</h5>
+                    <div id="map"></div>
                 </div>
-                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+
+                <!-- Contact Form -->
+                <div class="col-lg-4 col-md-12">
                     <form id="contactForm">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                        required>
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                    <textarea class="form-control" id="message" placeholder="Leave a message here"
+                                        style="height: 150px" required></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
@@ -162,12 +164,82 @@
                     <div id="submissionMessage" class="alert alert-success mt-3" style="display: none;">
                         Thank you for your message! We will get back to you soon.
                     </div>
+                    <!-- Display submitted data (for demo purposes) -->
+                    <div id="displayInput"></div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
 
+    <!-- Hub Contact Details List -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <h2 class="govuk-heading-xl">Our Hubs Contact Information</h2>
+            <div class="hub-list">
+                <!-- East Midlands Hubs -->
+                <div class="hub-item">
+                    <h4>Leicestershire, Nottinghamshire and Rutland</h4>
+                    <p><strong>Address:</strong> Beauchamp College, Ridge Way, Oadby, LE2 5TP</p>
+                    <p><strong>Email:</strong> <a
+                            href="mailto:teachcomputing@lionhearttrust.org.uk">teachcomputing@lionhearttrust.org.uk</a>
+                    </p>
+                    <p><strong>Phone:</strong> <a href="tel:01162 986234">01162 986234</a></p>
+                </div>
+                <div class="hub-item">
+                    <h4>Lincolnshire</h4>
+                    <p><strong>Address:</strong> The Priory Academy LSST, Cross O'Cliff Hill, Lincoln, LN5 8PW</p>
+                    <p><strong>Email:</strong> <a
+                            href="mailto:teachcomputing@prioryacademies.co.uk">teachcomputing@prioryacademies.co.uk</a>
+                    </p>
+                    <p><strong>Phone:</strong> <a href="tel:01522 889297">01522 889297 Ext: 6369</a></p>
+                </div>
+                <div class="hub-item">
+                    <h4>Milton Keynes &amp; Northamptonshire</h4>
+                    <p><strong>Address:</strong> Denbigh School, Burchard Crescent, Shenley Church End, MK5 6EX</p>
+                    <p><strong>Email:</strong> <a
+                            href="mailto:teachcomputing@denbigh.net">teachcomputing@denbigh.net</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:01908 794094">01908 794094</a></p>
+                </div>
+                <!-- East of England Hubs -->
+                <div class="hub-item">
+                    <h4>Cambridge &amp; Northamptonshire</h4>
+                    <p><strong>Address:</strong> Chesterton Community College, Gilbert Road, Cambridge, CB4 3NY</p>
+                    <p><strong>Email:</strong> <a
+                            href="mailto:teachcomputing@ccc.tela.org.uk">teachcomputing@ccc.tela.org.uk</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:01223 712150">01223 712150 (ext 136)</a></p>
+                </div>
+                <div class="hub-item">
+                    <h4>London, Hertfordshire and Essex</h4>
+                    <p><strong>Address:</strong> Saffron Walden County High School, Audley End Road, Saffron Walden,
+                        CB11 4UH</p>
+                    <p><strong>Email:</strong> <a href="mailto:teachcomputing@swchs.net">teachcomputing@swchs.net</a>
+                    </p>
+                    <p><strong>Phone:</strong> <a href="tel:01799 513030">01799 513030 (ext 1264)</a></p>
+                </div>
+                <div class="hub-item">
+                    <h4>London, Hertfordshire and Hampshire</h4>
+                    <p><strong>Address:</strong> Sandringham School, The Ridgeway, St Albans, AL4 9NX</p>
+                    <p><strong>Email:</strong> <a
+                            href="mailto:teachcomputing@albantsh.co.uk">teachcomputing@albantsh.co.uk</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:01727799560">01727 799560</a></p>
+                </div>
+                <div class="hub-item">
+                    <h4>Norfolk</h4>
+                    <p><strong>Address:</strong> Dereham Neatherd High School, Norwich Road, Dereham, NR20 3AX</p>
+                    <p><strong>Email:</strong> <a
+                            href="mailto:teachcomputing@neatherd.org">teachcomputing@neatherd.org</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:01362697981">01362 697981</a></p>
+                </div>
+                <div class="hub-item">
+                    <h4>Suffolk</h4>
+                    <p><strong>Address:</strong> West Suffolk College, Out Risbygate, Bury St Edmunds, IP33 3RL</p>
+                    <p><strong>Email:</strong> <a href="mailto:teachcomputing@wsc.ac.uk">teachcomputing@wsc.ac.uk</a>
+                    </p>
+                    <p><strong>Phone:</strong> <a href="tel:01284338749">01284 338749</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -193,7 +265,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Keep up to date with the latest news and events at our hub.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -205,10 +277,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        &copy; <a class="border-bottom" href="https://teachcomputing.org/">National Centre for Computing Education</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
@@ -224,22 +293,102 @@
     </div>
     <!-- Footer End -->
 
-
-    <!-- Back to Top -->
+    <!-- Back to Top Button -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="js/contact.js"></script>
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Contact Form Script -->
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            var name = document.getElementById("name").value.trim();
+            var email = document.getElementById("email").value.trim();
+            var subject = document.getElementById("subject").value.trim();
+            var message = document.getElementById("message").value.trim();
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+            if (!name || !email || !subject || !message) {
+                alert("Please fill out all fields.");
+                return;
+            }
+
+            document.getElementById("submissionMessage").style.display = "block";
+            document.getElementById("displayInput").innerHTML =
+                "<h4>Submitted Data</h4>" +
+                "<p><strong>Name:</strong> " + name + "</p>" +
+                "<p><strong>Email:</strong> " + email + "</p>" +
+                "<p><strong>Subject:</strong> " + subject + "</p>" +
+                "<p><strong>Message:</strong> " + message + "</p>";
+
+            document.getElementById("contactForm").reset();
+        });
+    </script>
+    <!-- Leaflet Map Initialization -->
+    <script>
+        // Initialize the Leaflet map
+        var map = L.map('map').setView([52.5, 0.0], 7); // Centered over the region
+        // Load and display tile layers on the map (OpenStreetMap tiles)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Array of hub locations with details
+        var hubs = [
+            {
+                name: "Leicestershire, Nottinghamshire and Rutland",
+                lat: 52.644, lng: -1.139,
+                address: "Beauchamp College, Ridge Way, Oadby, LE2 5TP"
+            },
+            {
+                name: "Lincolnshire",
+                lat: 53.234, lng: -0.538,
+                address: "The Priory Academy LSST, Cross O'Cliff Hill, Lincoln, LN5 8PW"
+            },
+            {
+                name: "Milton Keynes & Northamptonshire",
+                lat: 52.043, lng: -0.759,
+                address: "Denbigh School, Burchard Crescent, Shenley Church End, MK5 6EX"
+            },
+            {
+                name: "Cambridge & Northamptonshire",
+                lat: 52.205, lng: 0.121,
+                address: "Chesterton Community College, Gilbert Road, Cambridge, CB4 3NY"
+            },
+            {
+                name: "London, Hertfordshire and Essex",
+                lat: 52.02,
+                lng: 0.23,
+                address: "Saffron Walden County High School, Audley End Road, Saffron Walden, CB11 4UH"
+            },
+            {
+                name: "London, Hertfordshire and Hampshire",
+                lat: 51.76,
+                lng: -0.31,
+                address: "Sandringham School, The Ridgeway, St Albans, AL4 9NX"
+            },
+            {
+                name: "Norfolk",
+                lat: 52.68,
+                lng: 0.94,
+                address: "Dereham Neatherd High School, Norwich Road, Dereham, NR20 3AX"
+            },
+            {
+                name: "Suffolk",
+                lat: 52.24,
+                lng: 0.72,
+                address: "West Suffolk College, Out Risbygate, Bury St Edmunds, IP33 3RL"
+            }
+        ];
+
+        // Add markers to the map for each hub
+        hubs.forEach(function (hub) {
+            var marker = L.marker([hub.lat, hub.lng]).addTo(map);
+            marker.bindPopup("<strong>" + hub.name + "</strong><br>" + hub.address);
+        });
+    </script>
 </body>
 
 </html>
