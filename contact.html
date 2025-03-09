@@ -60,6 +60,7 @@
                         <a href="404.html" class="dropdown-item">404 Page</a>
                     </div>
                 </div> -->
+                <a href="events.html" class="nav-item nav-link">News & Events</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -126,7 +127,7 @@
                         tabindex="0"></iframe>
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <form>
+                    <form id="contactForm">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -157,6 +158,10 @@
                             </div>
                         </div>
                     </form>
+                    <!-- Confirmation message displayed after form submission -->
+                    <div id="submissionMessage" class="alert alert-success mt-3" style="display: none;">
+                        Thank you for your message! We will get back to you soon.
+                    </div>
                 </div>
             </div>
         </div>
@@ -231,6 +236,7 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/contact.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
