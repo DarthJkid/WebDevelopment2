@@ -1,0 +1,24 @@
+[
+    {
+      "name": "World Computer Day Computing Challenge",
+      "date": "2025-02-13",
+      "location": "Norfolk",
+      "description": "An online challenge event aimed at Upper Key Stage 2. Pupils complete a series of programming challenges linked to World Computer Day.",
+      "bookingLink": "https://eventbrite.example.com/world-computer-day"
+    },
+    {
+      "name": "I Belong Green Tech",
+      "date": "2025-02-04",
+      "location": "East Midlands",
+      "description": "An invite-only event for KS2 and KS3 students featuring skills workshops and physical computing activities under the I Belong Green Tech theme.",
+      "bookingLink": "https://eventbrite.example.com/i-belong-green-tech"
+    },
+    {
+      "name": "I Belong Green Tech Challenge Day",
+      "date": "2025-03-28",
+      "location": "East of England",
+      "description": "A challenge day where young participants will develop a Green Tech Village, fostering creativity and computational thinking.",
+      "bookingLink": "https://eventbrite.example.com/i-belong-green-tech-challenge"
+    }
+  ]
+  

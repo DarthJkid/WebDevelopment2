@@ -1,0 +1,38 @@
+[
+    {
+      "courseCode": "CO209",
+      "courseTitle": "Data Representation in Computing: Bring Data to Life",
+      "duration": "8 Hrs",
+      "description": "Learn how data is represented through media; audio, visual and text. This online course explores how computers do interesting things with data. You’ll discover how to represent and manipulate text, images and sound, along with compression and other algorithms.",
+      "bookingLink": "https://teachcomputing.org/courses/CO209/data-representation-in-computing-bring-data-to-life"
+    },
+    {
+      "courseCode": "CO218",
+      "courseTitle": "Design and Prototype Embedded Computer Systems",
+      "duration": "8 Hrs",
+      "description": "Discover embedded system design and work your way through the product design lifecycle. Explore how embedded systems are used in the world around us and learn what makes them different from general-purpose systems.",
+      "bookingLink": "https://teachcomputing.org/courses/CO218/design-and-prototype-embedded-computer-systems"
+    },
+    {
+      "courseCode": "CO206",
+      "courseTitle": "How Computers Work: Demystifying Computation",
+      "duration": "8 Hrs",
+      "description": "Explore the fundamentals of computing – computer architecture, binary logic, data processing, circuits, and more. Gain an understanding of how computers use binary and logic, and learn to simulate various logic gates.",
+      "bookingLink": "https://teachcomputing.org/courses/CO206/how-computers-work-demystifying-computation"
+    },
+    {
+      "courseCode": "CO215",
+      "courseTitle": "Impact of Technology: How To Lead Classroom Discussions",
+      "duration": "8 Hrs",
+      "description": "Explore the ethical, legal, cultural, and environmental concerns surrounding computer science. Build the skills needed to hold relevant and engaging discussions in the classroom.",
+      "bookingLink": "https://teachcomputing.org/courses/CO215/impact-of-technology-how-to-lead-classroom-discussions"
+    },
+    {
+      "courseCode": "CO225",
+      "courseTitle": "Introduction to Databases and SQL",
+      "duration": "8 Hrs",
+      "description": "On this course you’ll learn what databases are and why we use them, exploring how to use SQL to search and manipulate the data.",
+      "bookingLink": "https://teachcomputing.org/courses/CO225/introduction-to-databases-and-sql"
+    }
+  ]
+  

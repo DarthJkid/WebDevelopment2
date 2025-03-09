@@ -1,0 +1,35 @@
+[
+    {
+      "courseCode": "CP436",
+      "courseTitle": "Solving Computational Problems in KS3",
+      "location": "Cambridge & Northamptonshire Hub",
+      "duration": "1 Day",
+      "description": "A face-to-face course focusing on solving computational problems in KS3 computing.",
+      "bookingLink": "https://teachcomputing.org/courses/CP436/solving-computational-problems-in-ks3-computing"
+    },
+    {
+      "courseCode": "CP478",
+      "courseTitle": "Supporting GCSE Computer Science",
+      "location": "Lincolnshire Hub",
+      "duration": "1 Day",
+      "description": "A course designed for supporting GCSE computer science students at grades 1-3.",
+      "bookingLink": "https://teachcomputing.org/courses/CP478/supporting-gcse-computer-science-students-at-grades-1-3"
+    },
+    {
+      "courseCode": "CP411",
+      "courseTitle": "New Subject Leaders of Secondary Computing - Remote",
+      "location": "Nottinghamshire & Rutland Hub",
+      "duration": "2 Days",
+      "description": "A course aimed at new subject leaders in secondary computing, offered face-to-face to provide hands-on leadership training.",
+      "bookingLink": "https://teachcomputing.org/courses/CP411/new-subject-leaders-of-secondary-computing-remote"
+    },
+    {
+      "courseCode": "CP448",
+      "courseTitle": "Adapted teaching and effective learning interventions in secondary computing",
+      "location": "Nottinghamshire & Rutland Hub",
+      "duration": "1 Day",
+      "description": "Develop an evidence-informed approach to education recovery over a sustained period, securing the computing education of young people following a period of great disruption..",
+      "bookingLink": "https://teachcomputing.org/courses/CP448/adapted-teaching-and-effective-learning-interventions-in-secondary-computing"
+    }
+  ]
+  

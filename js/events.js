@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.getJSON('data/events.json', function(data) {
+    $.getJSON('json/events.json', function(data) {
       var eventsTableBody = $('#eventsTable tbody');
       $.each(data, function(index, event) {
         var row = '<tr>' +
