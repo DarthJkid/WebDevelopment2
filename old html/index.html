@@ -23,7 +23,7 @@
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
@@ -31,15 +31,6 @@
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
-
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top p-0">
         <a href="index.html"><img src="./img/ComputingHubsDark-Large.PNG" alt="Computing Hubs Logo"></a>
@@ -52,6 +43,14 @@
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="face-to-face-courses.html" class="nav-item nav-link">Face to Face Courses</a>
                 <a href="remote-courses.html" class="nav-item nav-link">Remote Courses</a>
+                <!-- <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
+                </div> -->
                 <a href="events.html" class="nav-item nav-link">News & Events</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
@@ -60,17 +59,46 @@
     <!-- Navbar End -->
 
 
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">About Us</h1>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">The Best Computing Training for Aspiring Teachers</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Visit our Hub</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Our on-site teaching provides a hands-on learning experience with access to state-of-the-art facilities and personalized instruction from our expert educators. 
+                                    Join us to enhance your teaching skills and gain practical knowledge in a collaborative environment.</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="face-to-face-courses.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">The Best Computing Training for Aspiring Teacherss</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Get Educated Online From Your Home</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Our online teaching platform offers the flexibility to learn from anywhere at any time. 
+                                    With a variety of courses available, you can enhance your skills and knowledge without the need to travel. Join us for a convenient and effective learning experience.</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="remote-courses.html" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Header End -->
+    <!-- Carousel End -->
 
 
     <!-- Service Start -->
@@ -170,6 +198,37 @@
     </div>
     <!-- About End -->
 
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
+            <h1 class="mb-5">Courses Categories</h1>
+            </div>
+            <div class="row g-3">
+            <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                <a class="position-relative d-block overflow-hidden" href="face-to-face-courses.html">
+                <img class="img-fluid w-100" src="img/face-to-face-courses.jpg" alt="" style="height: 400px; object-fit: cover;">
+                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                    <h5 class="m-0">Face to Face courses</h5>
+                </div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6 wow zoomIn" data-wow-delay="0.7s">
+                <a class="position-relative d-block overflow-hidden" href="remote-courses.html">
+                <img class="img-fluid w-100" src="img/remote-courses.jpg" alt="" style="height: 400px; object-fit: cover;">
+                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                    <h5 class="m-0">Remote Courses</h5>
+                </div>
+                </a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Categories Start -->
+
     <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -250,6 +309,56 @@
         </div>
     </div>
     <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Ellie Mason</h5>
+                    <p>Teacher at Swavesey Village College</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Its a brilliant experience. 
+                        The instructors are knowledgeable and the courses are well-structured. 
+                        I highly recommend it to anyone looking to enhance their computing skills. Five stars!</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Rhys Thomas</h5>
+                    <p>Teacher at Hampton College</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">The courses are comprehensive and easy to follow. The instructors are very supportive and responsive. Lovely stuff!</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Ruaridh Little</h5>
+                    <p>Teacher at Springfield Academy</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">The platform offers a wide range of courses that are both informative and engaging. 
+                        The instructors are top-notch and the support team is always ready to help.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Melina Edström</h5>
+                    <p>Teacher at Josben International College</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">The courses offered here are fantastic! The instructors are very knowledgeable and the content is easy to follow. 
+                        I've learned so much and feel more confident in my skills. Highly recommend!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
         
 
     <!-- Footer Start -->
@@ -258,8 +367,8 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Information</h4>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
