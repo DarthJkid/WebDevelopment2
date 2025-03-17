@@ -7,7 +7,7 @@ $(document).ready(function () {
           '<td>' + course.courseTitle + '</td>' +
           '<td>' + course.duration + '</td>' +
           '<td>' + course.description + '</td>' +
-          '<td><a href="' + course.bookingLink + '" target="_blank" class="btn btn-sm btn-primary">Book Now</a></td>' +
+          '<td><a href="' + course.bookingLink + '" target="_blank" class="btn btn-sm btn-primary" style="background-color: #201547">Book Now</a></td>' +
           '</tr>';
         tableBody.append(row);
       });

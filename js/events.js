@@ -7,7 +7,7 @@ $(document).ready(function() {
           '<td>' + event.date + '</td>' +
           '<td>' + event.location + '</td>' +
           '<td>' + event.description + '</td>' +
-          '<td><a href="' + event.bookingLink + '" target="_blank" class="btn btn-sm btn-primary">Book</a></td>' +
+          '<td><a href="' + event.bookingLink + '" target="_blank" class="btn btn-sm btn-primary" style="background-color: #201547">Book</a></td>' +
           '</tr>';
         eventsTableBody.append(row);
       });

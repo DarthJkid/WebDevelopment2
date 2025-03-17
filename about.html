@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>About Us - Computing Hubs</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -13,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -28,22 +31,41 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Inline style overrides for improved accessibility -->
+    <style>
+        /* Improve color contrast by using a darker primary color */
+        .bg-primary {
+            background-color: #003366 !important;
+        }
+
+        .text-primary {
+            color: #003366 !important;
+        }
+
+        /* Specific override for the Read More button for improved contrast */
+        a.btn.btn-primary.py-3.px-5.mt-2 {
+            background-color: #002244 !important;
+            color: #ffffff !important;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="visually-hidden">Loading...</span>
         </div>
     </div>
     <!-- Spinner End -->
 
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top p-0">
         <a href="index.html"><img src="./img/ComputingHubsDark-Large.PNG" alt="Computing Hubs Logo"></a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -52,13 +74,12 @@
                 <a href="about.html" class="nav-item nav-link">About</a>
                 <a href="face-to-face-courses.html" class="nav-item nav-link">Face to Face Courses</a>
                 <a href="remote-courses.html" class="nav-item nav-link">Remote Courses</a>
-                <a href="events.html" class="nav-item nav-link">News & Events</a>
+                <a href="events.html" class="nav-item nav-link">Events</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
-
 
     <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -72,18 +93,20 @@
     </div>
     <!-- Header End -->
 
-
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4">
+                <!-- Changed from h5 to h3 for proper heading order -->
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Our instructors are highly trained professionals with extensive experience in their respective fields. 
-                                They are dedicated to providing the best education and support to help you achieve your learning goals.
+                            <h3 class="mb-3">Skilled Instructors</h3>
+                            <p>Our instructors are highly trained professionals with extensive experience in their
+                                respective fields.
+                                They are dedicated to providing the best education and support to help you achieve your
+                                learning goals.
                             </p>
                         </div>
                     </div>
@@ -92,9 +115,11 @@
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
-                            <p>Our online classes offer flexibility and convenience, allowing you to learn at your own pace from the comfort of your home. 
-                                With a wide range of courses available, you can enhance your skills and knowledge in various subjects.
+                            <h3 class="mb-3">Online Classes</h3>
+                            <p>Our online classes offer flexibility and convenience, allowing you to learn at your own
+                                pace from the comfort of your home.
+                                With a wide range of courses available, you can enhance your skills and knowledge in
+                                various subjects.
                             </p>
                         </div>
                     </div>
@@ -103,9 +128,11 @@
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">On-Site Facilities</h5>
-                            <p>Our on-site facilities provide a conducive learning environment with state-of-the-art equipment. 
-                                We offer face-to-face courses to ensure personalized instruction and hands-on experience to enhance teaching skills.</p>
+                            <h3 class="mb-3">On-Site Facilities</h3>
+                            <p>Our on-site facilities provide a conducive learning environment with state-of-the-art
+                                equipment.
+                                We offer face-to-face courses to ensure personalized instruction and hands-on experience
+                                to enhance teaching skills.</p>
                         </div>
                     </div>
                 </div>
@@ -113,9 +140,11 @@
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                            <h5 class="mb-3">Certification</h5>
-                            <p>Our certification programs are designed to validate your skills and knowledge in various subjects. 
-                                Upon successful completion of our courses, you will receive a certificate that is recognized and valued by employers worldwide.
+                            <h3 class="mb-3">Certification</h3>
+                            <p>Our certification programs are designed to validate your skills and knowledge in various
+                                subjects.
+                                Upon successful completion of our courses, you will receive a certificate that is
+                                recognized and valued by employers worldwide.
                             </p>
                         </div>
                     </div>
@@ -125,20 +154,23 @@
     </div>
     <!-- Service End -->
 
-
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/Teacher and students.jpg" alt="" style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/Teacher and students.jpg"
+                            alt="Teacher and students engaged in a classroom session"
+                            style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to the Peterborough Computing Hub</h1>
-                    <p class="mb-4">The National Centre for Computing Education (NCCE) is funded by the Department for Education and supporting partners and marks a significant investment in improving the provision of computing education in England.</p>
+                    <h2 class="section-title bg-white text-start text-primary pe-3">About Us</h2>
+                    <h3 class="mb-4">Welcome to the Peterborough Computing Hub</h3>
+                    <p class="mb-4">The National Centre for Computing Education (NCCE) is funded by the Department for
+                        Education and supporting partners and marks a significant investment in improving the provision
+                        of computing education in England.</p>
                     <p class="mb-4">Opened in 2025, This Hub supports schools and colleges in Peterborough to
                         provide a high-quality computing education to all young people. We will
                         work with you to identify your computing needs and provide a targeted programme
@@ -147,7 +179,7 @@
                     <p class="mb-4"> We provide teachers with a comprehensive range of evidence-informed, high-
                         quality support, including free resources and training courses. Funding is available,
                         including subsidies, to support supply cover for continuing professional
-                        development - to help them become inspirational computing teachers 
+                        development - to help them become inspirational computing teachers
                     </p>
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
@@ -160,10 +192,12 @@
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificates</p>
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International
+                                Certificates</p>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href=""
+                        aria-label="Read more about Peterborough Computing Hub">Read More</a>
                 </div>
             </div>
         </div>
@@ -174,75 +208,87 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
+                <h2 class="section-title bg-white text-center text-primary px-3">Instructors</h2>
+                <h3 class="mb-5">Expert Instructors</h3>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="Instructor Tristão Vasconcelos">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Twitter"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Instagram"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Tristão Vasconcelos</h5>
+                            <h3 class="mb-0">Tristão Vasconcelos</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="Instructor Sara Khosravi">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Twitter"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Instagram"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Sara Khosravi</h5>
+                            <h3 class="mb-0">Sara Khosravi</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="Instructor Josh Mcintyre">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Twitter"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Instagram"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Josh Mcintyre</h5>
+                            <h3 class="mb-0">Josh Mcintyre</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="Instructor Linda Hutchinson">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Twitter"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href="" aria-label="Instagram"><i
+                                        class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Linda Hutchinson</h5>
+                            <h3 class="mb-0">Linda Hutchinson</h3>
                         </div>
                     </div>
                 </div>
@@ -250,64 +296,71 @@
         </div>
     </div>
     <!-- Team End -->
-        
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Information</h4>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 High Street, Peteborough, PE1 1TU</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+44 7936254852</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>computinghubspeteborough@ncce.org</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+    <footer>
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h2 class="text-white mb-3">Information</h2>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="btn btn-link" href="https://teachcomputing.org/terms-conditions" target="_blank"
+                            rel="noopener noreferrer">Terms & Conditions</a>
+                        <a class="btn btn-link" href="https://teachcomputing.org/privacy" target="_blank"
+                            rel="noopener noreferrer">Privacy Policy</a>
+                        <a class="btn btn-link" href="https://teachcomputing.org/safeguarding" target="_blank"
+                            rel="noopener noreferrer">Safeguarding Policy</a>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Keep up to date with the latest news and events at our hub.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    <div class="col-lg-3 col-md-6">
+                        <h2 class="text-white mb-3">Contact</h2>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3" aria-hidden="true"></i>Heslington, York,
+                            YO10 5DD, United Kingdom</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3" aria-hidden="true"></i>01904 328 300</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3" aria-hidden="true"></i>info@teachcomputing.org
+                        </p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/WeAreComputing"
+                                aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://facebook.com/WeAreComputing"
+                                aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://www.linkedin.com/company/national-centre-for-computing-education"
+                                aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="https://teachcomputing.org/">National Centre for Computing Education</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
+                    <div class="col-lg-3 col-md-6">
+                        <h2 class="text-white mb-3">Newsletter</h2>
+                        <p>Keep up to date with the latest news and events at our hub.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email"
+                                placeholder="Your email" aria-label="Email address">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                aria-label="Sign up for newsletter">Sign Up</button>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="copyright text-center py-3">
+                    &copy; <a class="border-bottom" href="https://teachcomputing.org/">National Centre for Computing
+                        Education</a>, All Rights Reserved.
+                </div>
+            </div>
         </div>
-    </div>
+    </footer>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Back to Top"><i
+            class="bi bi-arrow-up"></i></a>
 
+    <!-- Reminder: If adding any iframe elements in the future, include a title attribute -->
+    <!-- Example:
+         <iframe src="..." title="Descriptive title for iframe content"></iframe>
+    -->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
